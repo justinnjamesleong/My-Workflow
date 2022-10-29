@@ -18,3 +18,5 @@ jobs:
       run: echo "head_ref - ${{github.head_ref}}, owener - ${{github.repository_owner}}"
     - name: List runner name
       run: echo "runner os - ${{runner.os}}"
+    - name: Echo my secret
+      run: echo "My secret is ${{secrets.MY_SECRET}}"
