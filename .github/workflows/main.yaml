@@ -23,6 +23,6 @@ jobs:
     - name: List my current directory
       run: ls -l
     - name: Checkout current repo
-      run: actions/checkout@v3
+      uses: actions/checkout@v3
     - name: List my current directory after checkout
       run: ls -l
